@@ -26,17 +26,21 @@ open-source.
 
 ## Running on Windows
 
-1. Install the libusb-win32 driver for the ANT stick, it can be easily done using [Zadig](https://zadig.akeo.ie/) or [Wahoo drivers](https://support.wahoofitness.com/hc/en-us/articles/360021559679-Installing-ANT-drivers).
+1. Download and install Python here: https://www.python.org/downloads/windows/
 
-2. Download this repository and run **Install.bat**
+2. Install the ANT stick, it can be easily done using [Zadig](https://zadig.akeo.ie/) or [Wahoo drivers](https://support.wahoofitness.com/hc/en-us/articles/360021559679-Installing-ANT-drivers).
 
-3. Select the desired resistance level, wheel circumference, etc. in vpower.cfg
+3. Download this repository, unzip and run **Install.bat**
+
+    https://github.com/carlosteixeiraXXX/vpower-elite-novo-force/archive/refs/heads/master.zip
+
+4. Select the desired resistance level, wheel circumference, etc. in vpower.cfg
 
     `power_calculator = `
 
     `wheel_circumference = `
 
-4. Run to the program open file **Run.bat**
+5. Run to the program open file **Run.bat**
 
 
 You should see something like this:
