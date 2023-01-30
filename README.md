@@ -40,7 +40,7 @@ open-source.
 
     `wheel_circumference = `
 
-5. Run to the program open file **Run.bat**
+5. To run the program open file **Run.bat**
 
 
 You should see something like this:
