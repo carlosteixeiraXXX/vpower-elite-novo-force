@@ -3,10 +3,15 @@ from configparser import ConfigParser
 import sys
 from ant.core import log
 from BtAtsPowerCalculator import BtAtsPowerCalculator
-from KurtKineticPowerCalculator import KurtKineticPowerCalculator
-from TacxBlueMotionPowerCalculator import TacxBlueMotionPowerCalculator
-from CycleOpsFluid2PowerCalculator import CycleOpsFluid2PowerCalculator
-from EliteNovoForcePowerCalculator import EliteNovoForcePowerCalculator
+from Level1 import Level1
+from Level2 import Level2
+from Level3 import Level3
+from Level4 import Level4
+from Level5 import Level5
+from Level6 import Level6
+from Level7 import Level7
+from Level8 import Level8
+
 from LinearInterpolationPowerCalculator import LinearInterpolationPowerCalculator
 from constants import *
 import hashlib
@@ -49,6 +54,7 @@ POWER_CALCULATOR.air_density_update_secs = CONFIG.getfloat(SECTION, 'air_density
 
 # For tyre-driven trainers, the wheel circumference in meters (2.122 for Continental Home trainer tyre)
 POWER_CALCULATOR.wheel_circumference = CONFIG.getfloat(SECTION, 'wheel_circumference')
+
 
 # Overall correction factor, e.g. to match a user's power meter on another bike
 POWER_CALCULATOR.set_correction_factor(CONFIG.getfloat(SECTION, 'correction_factor'))
