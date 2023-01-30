@@ -1,1 +1,0 @@
-git+https://github.com/mch/python-ant.git
